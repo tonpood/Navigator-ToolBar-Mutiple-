@@ -45,7 +45,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="z4E-6f-RLA"/>
                                     <barButtonItem systemItem="camera" id="jZY-3J-oKr"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="YNx-eo-9oA"/>
-                                    <barButtonItem systemItem="trash" id="6Nk-av-AUz"/>
+                                    <barButtonItem systemItem="refresh" id="6Nk-av-AUz"/>
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nM7-tj-BJZ">
