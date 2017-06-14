@@ -31,8 +31,16 @@
                                 </textAttributes>
                                 <items>
                                     <navigationItem title="หน้าแรก" id="AgW-Zg-Ddz">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="PTR-tR-DnC"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="caZ-bE-hBh"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="PTR-tR-DnC">
+                                            <connections>
+                                                <action selector="decreaseNumber:" destination="BYZ-38-t0r" id="FVC-bl-y2g"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="caZ-bE-hBh">
+                                            <connections>
+                                                <action selector="increaseNumber:" destination="BYZ-38-t0r" id="g3V-TS-9vs"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -41,11 +49,24 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem image="ic_autorenew.png" id="nPH-pO-EwZ"/>
+                                    <barButtonItem image="ic_autorenew.png" id="nPH-pO-EwZ">
+                                        <connections>
+                                            <action selector="ResetNumber:" destination="BYZ-38-t0r" id="TPy-Yu-Vob"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="z4E-6f-RLA"/>
-                                    <barButtonItem systemItem="camera" id="jZY-3J-oKr"/>
+                                    <barButtonItem systemItem="reply" id="jZY-3J-oKr">
+                                        <connections>
+                                            <action selector="ReplyNumber:" destination="BYZ-38-t0r" id="E6h-Mx-kc3"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="YNx-eo-9oA"/>
-                                    <barButtonItem systemItem="refresh" id="6Nk-av-AUz"/>
+                                    <barButtonItem image="ic_navigate_next.png" id="6Nk-av-AUz">
+                                        <connections>
+                                            <action selector="TrashNumber:" destination="BYZ-38-t0r" id="iLe-hi-lMp"/>
+                                            <segue destination="Flh-uo-1j4" kind="show" id="p04-O5-1A0"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nM7-tj-BJZ">
@@ -58,13 +79,48 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="NumberLabel" destination="nM7-tj-BJZ" id="T3X-oP-ftE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Lhm-Dr-V22">
+            <objects>
+                <viewController id="Flh-uo-1j4" customClass="SecondViewController" customModule="Nevigetor_Toolbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8ES-RW-0Ls"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xaj-xs-ngW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lge-7L-6Yh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRk-OO-Sno">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="cancel" id="hI9-RB-51X">
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="Q62-Mf-AKC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f37-G5-wn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797" y="139"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ic_autorenew.png" width="24" height="24"/>
+        <image name="ic_navigate_next.png" width="24" height="24"/>
     </resources>
 </document>

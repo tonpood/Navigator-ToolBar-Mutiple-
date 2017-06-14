@@ -15,6 +15,10 @@
 		FCFB04E61EF120590025E785 /* ic_autorenew_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */; };
 		FCFB04E71EF120590025E785 /* ic_autorenew_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */; };
 		FCFB04E81EF120590025E785 /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E51EF120590025E785 /* ic_autorenew.png */; };
+		FCFB04EC1EF1380D0025E785 /* ic_navigate_next_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E91EF1380D0025E785 /* ic_navigate_next_2x.png */; };
+		FCFB04ED1EF1380D0025E785 /* ic_navigate_next_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04EA1EF1380D0025E785 /* ic_navigate_next_3x.png */; };
+		FCFB04EE1EF1380D0025E785 /* ic_navigate_next.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04EB1EF1380D0025E785 /* ic_navigate_next.png */; };
+		FCFB04F01EF138FF0025E785 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB04EF1EF138FF0025E785 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_3x.png; path = ../../../../Desktop/ic_autorenew_3x.png; sourceTree = "<group>"; };
 		FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_2x.png; path = ../../../../Desktop/ic_autorenew_2x.png; sourceTree = "<group>"; };
 		FCFB04E51EF120590025E785 /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew.png; path = ../../../../Desktop/ic_autorenew.png; sourceTree = "<group>"; };
+		FCFB04E91EF1380D0025E785 /* ic_navigate_next_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_navigate_next_2x.png; path = ../../../../Desktop/ic_navigate_next_2x.png; sourceTree = "<group>"; };
+		FCFB04EA1EF1380D0025E785 /* ic_navigate_next_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_navigate_next_3x.png; path = ../../../../Desktop/ic_navigate_next_3x.png; sourceTree = "<group>"; };
+		FCFB04EB1EF1380D0025E785 /* ic_navigate_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_navigate_next.png; path = ../../../../Desktop/ic_navigate_next.png; sourceTree = "<group>"; };
+		FCFB04EF1EF138FF0025E785 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,15 @@
 		FCFB04D01EF118FB0025E785 /* Nevigetor Toolbar */ = {
 			isa = PBXGroup;
 			children = (
+				FCFB04E91EF1380D0025E785 /* ic_navigate_next_2x.png */,
+				FCFB04EA1EF1380D0025E785 /* ic_navigate_next_3x.png */,
+				FCFB04EB1EF1380D0025E785 /* ic_navigate_next.png */,
 				FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */,
 				FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */,
 				FCFB04E51EF120590025E785 /* ic_autorenew.png */,
 				FCFB04D11EF118FB0025E785 /* AppDelegate.swift */,
 				FCFB04D31EF118FB0025E785 /* ViewController.swift */,
+				FCFB04EF1EF138FF0025E785 /* SecondViewController.swift */,
 				FCFB04D51EF118FB0025E785 /* Main.storyboard */,
 				FCFB04D81EF118FB0025E785 /* Assets.xcassets */,
 				FCFB04DA1EF118FB0025E785 /* LaunchScreen.storyboard */,
@@ -132,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFB04EC1EF1380D0025E785 /* ic_navigate_next_2x.png in Resources */,
 				FCFB04DC1EF118FB0025E785 /* LaunchScreen.storyboard in Resources */,
 				FCFB04E61EF120590025E785 /* ic_autorenew_3x.png in Resources */,
+				FCFB04EE1EF1380D0025E785 /* ic_navigate_next.png in Resources */,
 				FCFB04E71EF120590025E785 /* ic_autorenew_2x.png in Resources */,
+				FCFB04ED1EF1380D0025E785 /* ic_navigate_next_3x.png in Resources */,
 				FCFB04D91EF118FB0025E785 /* Assets.xcassets in Resources */,
 				FCFB04E81EF120590025E785 /* ic_autorenew.png in Resources */,
 				FCFB04D71EF118FB0025E785 /* Main.storyboard in Resources */,
@@ -148,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFB04F01EF138FF0025E785 /* SecondViewController.swift in Sources */,
 				FCFB04D41EF118FB0025E785 /* ViewController.swift in Sources */,
 				FCFB04D21EF118FB0025E785 /* AppDelegate.swift in Sources */,
 			);
