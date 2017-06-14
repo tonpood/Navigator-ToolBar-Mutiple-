@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFB04D21EF118FB0025E785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB04D11EF118FB0025E785 /* AppDelegate.swift */; };
+		FCFB04D41EF118FB0025E785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB04D31EF118FB0025E785 /* ViewController.swift */; };
+		FCFB04D71EF118FB0025E785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04D51EF118FB0025E785 /* Main.storyboard */; };
+		FCFB04D91EF118FB0025E785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04D81EF118FB0025E785 /* Assets.xcassets */; };
+		FCFB04DC1EF118FB0025E785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04DA1EF118FB0025E785 /* LaunchScreen.storyboard */; };
+		FCFB04E61EF120590025E785 /* ic_autorenew_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */; };
+		FCFB04E71EF120590025E785 /* ic_autorenew_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */; };
+		FCFB04E81EF120590025E785 /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB04E51EF120590025E785 /* ic_autorenew.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCFB04CE1EF118FB0025E785 /* Nevigetor Toolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nevigetor Toolbar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFB04D11EF118FB0025E785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCFB04D31EF118FB0025E785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCFB04D61EF118FB0025E785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCFB04D81EF118FB0025E785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFB04DB1EF118FB0025E785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFB04DD1EF118FB0025E785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_3x.png; path = ../../../../Desktop/ic_autorenew_3x.png; sourceTree = "<group>"; };
+		FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_2x.png; path = ../../../../Desktop/ic_autorenew_2x.png; sourceTree = "<group>"; };
+		FCFB04E51EF120590025E785 /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew.png; path = ../../../../Desktop/ic_autorenew.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFB04CB1EF118FB0025E785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFB04C51EF118FB0025E785 = {
+			isa = PBXGroup;
+			children = (
+				FCFB04D01EF118FB0025E785 /* Nevigetor Toolbar */,
+				FCFB04CF1EF118FB0025E785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFB04CF1EF118FB0025E785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB04CE1EF118FB0025E785 /* Nevigetor Toolbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFB04D01EF118FB0025E785 /* Nevigetor Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB04E31EF120590025E785 /* ic_autorenew_3x.png */,
+				FCFB04E41EF120590025E785 /* ic_autorenew_2x.png */,
+				FCFB04E51EF120590025E785 /* ic_autorenew.png */,
+				FCFB04D11EF118FB0025E785 /* AppDelegate.swift */,
+				FCFB04D31EF118FB0025E785 /* ViewController.swift */,
+				FCFB04D51EF118FB0025E785 /* Main.storyboard */,
+				FCFB04D81EF118FB0025E785 /* Assets.xcassets */,
+				FCFB04DA1EF118FB0025E785 /* LaunchScreen.storyboard */,
+				FCFB04DD1EF118FB0025E785 /* Info.plist */,
+			);
+			path = "Nevigetor Toolbar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFB04CD1EF118FB0025E785 /* Nevigetor Toolbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFB04E01EF118FB0025E785 /* Build configuration list for PBXNativeTarget "Nevigetor Toolbar" */;
+			buildPhases = (
+				FCFB04CA1EF118FB0025E785 /* Sources */,
+				FCFB04CB1EF118FB0025E785 /* Frameworks */,
+				FCFB04CC1EF118FB0025E785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nevigetor Toolbar";
+			productName = "Nevigetor Toolbar";
+			productReference = FCFB04CE1EF118FB0025E785 /* Nevigetor Toolbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFB04C61EF118FB0025E785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SNRU;
+				TargetAttributes = {
+					FCFB04CD1EF118FB0025E785 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCFB04C91EF118FB0025E785 /* Build configuration list for PBXProject "Nevigetor Toolbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFB04C51EF118FB0025E785;
+			productRefGroup = FCFB04CF1EF118FB0025E785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFB04CD1EF118FB0025E785 /* Nevigetor Toolbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFB04CC1EF118FB0025E785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB04DC1EF118FB0025E785 /* LaunchScreen.storyboard in Resources */,
+				FCFB04E61EF120590025E785 /* ic_autorenew_3x.png in Resources */,
+				FCFB04E71EF120590025E785 /* ic_autorenew_2x.png in Resources */,
+				FCFB04D91EF118FB0025E785 /* Assets.xcassets in Resources */,
+				FCFB04E81EF120590025E785 /* ic_autorenew.png in Resources */,
+				FCFB04D71EF118FB0025E785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFB04CA1EF118FB0025E785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB04D41EF118FB0025E785 /* ViewController.swift in Sources */,
+				FCFB04D21EF118FB0025E785 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCFB04D51EF118FB0025E785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFB04D61EF118FB0025E785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCFB04DA1EF118FB0025E785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFB04DB1EF118FB0025E785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFB04DE1EF118FB0025E785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFB04DF1EF118FB0025E785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFB04E11EF118FB0025E785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nevigetor Toolbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Computer.UTID.Nevigetor-Toolbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCFB04E21EF118FB0025E785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nevigetor Toolbar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Computer.UTID.Nevigetor-Toolbar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFB04C91EF118FB0025E785 /* Build configuration list for PBXProject "Nevigetor Toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB04DE1EF118FB0025E785 /* Debug */,
+				FCFB04DF1EF118FB0025E785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFB04E01EF118FB0025E785 /* Build configuration list for PBXNativeTarget "Nevigetor Toolbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFB04E11EF118FB0025E785 /* Debug */,
+				FCFB04E21EF118FB0025E785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCFB04C61EF118FB0025E785 /* Project object */;
+}
